@@ -18,5 +18,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
+}
+
+.card__user-img {
+    border: 2px solid #2c5e;
+    height: 70px;
+    width: 70px;
+    margin: 2rem 0 1.5rem;
+    border-radius: 50%;
+}
+
+.card__info {
+    margin-bottom: 2rem;
+}
+
+.card__name {
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.card__title {
+    display: block;
+    font-size: .7rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
